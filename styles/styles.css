@@ -1,0 +1,156 @@
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+header{
+    background-image: url('../Assets/Hero-bg.png');
+    padding-bottom: 150px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 150px 0 150px;
+}
+nav ul{
+    list-style: none;
+}
+nav li a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.logo{
+    font-weight: bold;
+    font-size: 34px;
+}
+.btn{
+    background-color: #4E47FF;
+    font-weight: bold;
+    font-size: 16px;
+    width: 132px;
+    height: 48px;
+    border-radius: 5px;
+    border: none;
+}
+.stay{
+    color: white;
+    background-color: #4E47FF;
+    width: 174px;
+    height: 48px;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+}
+.cover{
+    font-weight: bold;
+    font-size: 65px;
+}
+.div1{
+    text-align: center;
+    padding: 0 500px 0 500px;
+}
+section{
+    display: flex;
+    justify-content: space-between;
+    margin: 116px 150px 0 150px;
+    /* gap: 220px; */
+}
+.see{
+    font-weight: bold;
+    font-size: 42px;
+}
+.explore{
+    /* color: #252432; */
+    font-weight: 600px;
+    font-size: 24px;
+}
+.launch{
+    color: white;
+    background-color: #4E47FF;
+    width: 229px;
+    height: 48px;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+}
+.img{
+    border-radius: 50px;
+    margin-bottom: 116px;
+}
+.div2{
+   margin-top: 116px;
+   background-color: rgba(78, 71, 255, 0.16);
+   max-width: 1258px;
+   /* height: 141px; */
+   margin: 0 auto;
+   border-radius: 10px;
+
+}
+.pra1{
+    color: #4E47FF;
+    font-weight: bold;
+    font-size: 80px;
+}
+.pra2{
+
+}
+.div3{
+    display: flex;
+    justify-content: space-around;
+}
+.joi{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+
+}
+.div4{
+    padding:0px;
+}
+
+.what{
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 137px;
+}
+.div5{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 400px 0 400px;
+    margin-bottom: 130px;
+}
+.div6{
+    box-shadow: #4E47FF;
+}
+
+.rea{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.ger{
+    color: white;
+    background-color: #4E47FF;
+    width: 195px;
+    height: 48px;
+    border-radius: 5px;
+    border: none;
+}
+.div7{
+    background-color: antiquewhite;
+    width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+}
+.img2{
+    display: block;
+    align-content: space-evenly;
+}
