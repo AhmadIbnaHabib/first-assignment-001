@@ -3,7 +3,9 @@
     font-optical-sizing: auto;
     font-style: normal;
 }
-
+button:hover{
+    background-color:green;
+}
 body {
     background-color: #f5f8ff;
 }
@@ -87,7 +89,7 @@ section {
     font-size: 24px;
 }
 
-.launch {
+.launch{
     color: white;
     background-color: #4E47FF;
     width: 229px;
