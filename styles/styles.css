@@ -1,33 +1,37 @@
-
 .inter-font {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
-header{
+
+header {
     background-image: url('../Assets/Hero-bg.png');
     padding-bottom: 150px;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 150px 0 150px;
 }
-nav ul{
+
+nav ul {
     list-style: none;
 }
-nav li a{
+
+nav li a {
     text-decoration: none;
     color: white;
-    
+
 }
 
-.logo{
+.logo {
     font-weight: bold;
     font-size: 34px;
 }
-.btn{
+
+.btn {
     background-color: #4E47FF;
     font-weight: bold;
     font-size: 16px;
@@ -36,7 +40,8 @@ nav li a{
     border-radius: 5px;
     border: none;
 }
-.stay{
+
+.stay {
     color: white;
     background-color: #4E47FF;
     width: 174px;
@@ -46,30 +51,36 @@ nav li a{
     border-radius: 5px;
     border: none;
 }
-.cover{
+
+.cover {
     font-weight: bold;
     font-size: 65px;
 }
-.div1{
+
+.div1 {
     text-align: center;
     padding: 0 500px 0 500px;
 }
-section{
+
+section {
     display: flex;
     justify-content: space-between;
     margin: 116px 150px 0 150px;
     /* gap: 220px; */
 }
-.see{
+
+.see {
     font-weight: bold;
     font-size: 42px;
 }
-.explore{
+
+.explore {
     /* color: #252432; */
     font-weight: 600px;
     font-size: 24px;
 }
-.launch{
+
+.launch {
     color: white;
     background-color: #4E47FF;
     width: 229px;
@@ -79,63 +90,79 @@ section{
     border-radius: 5px;
     border: none;
 }
-.img{
+
+.img {
     border-radius: 50px;
     margin-bottom: 116px;
 }
-.div2{
-   margin-top: 116px;
-   background-color: rgba(78, 71, 255, 0.16);
-   max-width: 1258px;
-   /* height: 141px; */
-   margin: 0 auto;
-   border-radius: 10px;
+
+.div2 {
+    margin-top: 116px;
+    background-color: rgba(78, 71, 255, 0.16);
+    max-width: 1258px;
+    margin: 0 auto;
+    border-radius: 10px;
 
 }
-.pra1{
+
+.pra1 {
     color: #4E47FF;
     font-weight: bold;
     font-size: 80px;
 }
-.pra2{
+
+.pra2 {
+    padding-bottom: 100px;
 
 }
-.div3{
+
+.div3 {
     display: flex;
     justify-content: space-around;
 }
-.joi{
+
+.joi {
     text-align: center;
     font-size: 35px;
     font-weight: bold;
-
-}
-.div4{
-    padding:0px;
+    padding-top: 100px;
 }
 
-.what{
+.div4 {
+    padding: 0px;
+}
+
+.what {
     font-size: 42px;
     font-weight: bold;
     text-align: center;
     margin-top: 137px;
 }
-.div5{
+
+.div5 {
+
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
     margin: 0 400px 0 400px;
     margin-bottom: 130px;
-}
-.div6{
-    box-shadow: #4E47FF;
+
 }
 
-.rea{
+.div6 {
+    box-shadow: 0 4px 8px 0 brown;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #fff;
+    margin-right: 10px;
+}
+
+.rea {
     font-weight: bold;
     font-size: 50px;
 }
 
-.ger{
+.ger {
     color: white;
     background-color: #4E47FF;
     width: 195px;
@@ -143,39 +170,47 @@ section{
     border-radius: 5px;
     border: none;
 }
-.div7{
+
+.div7 {
     background-color: antiquewhite;
-    width: 1140px;
+    max-width: 1140px;
     margin: 0 auto;
     text-align: center;
     padding-top: 20px;
-}
-.img2{
-    display: block;
-    align-content: space-evenly;
+    border-radius: 25px;
 }
 
-.div8{
+.img2 {
+    padding: 50px 20px;
+}
+.img3{
+    border-radius: 25px;
+}
+
+.div8 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin:  100px 300px 100px 300px;
+    margin: 100px 300px 100px 300px;
 }
-.get{
+
+.get {
     color: #8987A1;
     width: 528px;
     height: 232px;
     font-weight: bold;
     font-size: 97px;
 }
-.labelin{
+
+.labelin {
     width: 462px;
     height: 62px;
     padding-left: 25px;
     margin-left: 25px;
     margin-top: 25px;
 }
-.touch{
+
+.touch {
     width: 497px;
     height: 62px;
     background-color: #4E47FF;
@@ -186,27 +221,33 @@ section{
     margin-left: 25px;
     margin-top: 25px;
 }
-footer{
+
+footer {
     text-align: center;
     margin: 104px 455px 103px 455px;
 }
-.logo5{
+
+.logo5 {
     color: #4E47FF;
     font-size: 100px;
 }
-.readdy{
+
+.readdy {
     /* width: 531px;
     height: 48px; */
 }
-footer ul li{
+
+footer ul li {
     list-style: none;
 
 }
-footer li a{
-    color:#8987A1;
+
+footer li a {
+    color: #8987A1;
     text-decoration: none;
 }
-footer ul{
+
+footer ul {
     display: flex;
     justify-content: center;
     gap: 50px;
