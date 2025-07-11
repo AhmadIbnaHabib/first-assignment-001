@@ -4,6 +4,10 @@
     font-style: normal;
 }
 
+body {
+    background-color: #f5f8ff;
+}
+
 header {
     background-image: url('../Assets/Hero-bg.png');
     padding-bottom: 150px;
@@ -23,6 +27,7 @@ nav ul {
 nav li a {
     text-decoration: none;
     color: white;
+    cursor: pointer red;
 
 }
 
@@ -75,7 +80,7 @@ section {
 }
 
 .explore {
-    /* color: #252432; */
+    color: rgba(37, 36, 50, 0.5);
     font-weight: 600px;
     font-size: 24px;
 }
@@ -109,12 +114,16 @@ section {
     color: #4E47FF;
     font-weight: bold;
     font-size: 80px;
+    margin: 0;
 }
 
 .pra2 {
     padding-bottom: 100px;
-    
-
+    margin: 0;
+    margin-left: 10px;
+    font-weight: 400px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
 }
 
 .div3 {
@@ -124,7 +133,7 @@ section {
 
 .joi {
     text-align: center;
-    font-size: 35px;
+    font-size: 40px;
     font-weight: bold;
     padding-top: 100px;
 }
@@ -151,7 +160,8 @@ section {
 }
 
 .div6 {
-    box-shadow: 0 4px 8px 0 brown;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.06);
+    ;
     border-radius: 8px;
     padding: 20px;
     background-color: #fff;
@@ -173,7 +183,7 @@ section {
 }
 
 .div7 {
-    background-color: antiquewhite;
+    background-color: white;
     max-width: 1140px;
     margin: 0 auto;
     text-align: center;
@@ -184,7 +194,8 @@ section {
 .img2 {
     padding: 50px 20px;
 }
-.img3{
+
+.img3 {
     border-radius: 25px;
 }
 
@@ -196,7 +207,7 @@ section {
 }
 
 .get {
-    color: #8987A1;
+    color: black;
     width: 528px;
     height: 232px;
     font-weight: bold;
@@ -231,11 +242,15 @@ footer {
 .logo5 {
     color: #4E47FF;
     font-size: 100px;
+    margin: 0;
 }
 
 .readdy {
-    /* width: 531px;
-    height: 48px; */
+    width: 531px;
+    height: 48px;
+    align-items: center;
+    margin: auto;
+    /* color: #252432; */
 }
 
 footer ul li {
@@ -253,22 +268,38 @@ footer ul {
     justify-content: center;
     gap: 50px;
 }
-.formin{
+
+.formin {
     width: 497px;
-    height: 70px;
+    height: 63px;
     margin-bottom: 25px;
     padding-left: 10px;
     border-radius: 5px;
     font-weight: 400px;
     font-size: 20px;
+    border: color #252432;
+    border: none;
 
 }
 
-.texta{
+.texta {
     padding: 10px 0 0 10px;
     border-radius: 5px;
-}
-.revi{
-    text-align: center;
+    border: none;
 }
 
+.get3 {
+    color: white;
+    background-color: #4E47FF;
+    width: 510px;
+    height: 63px;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 25px;
+    border-radius: 5px;
+    border: none;
+}
+
+.this {
+    color: rgba(37, 36, 50, 0.5);
+}
